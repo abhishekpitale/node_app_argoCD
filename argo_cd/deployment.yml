@@ -15,7 +15,7 @@ spec:
         app: argocdapp
     spec:
       containers:
-      - image: https://hub.docker.com/repository/docker/abhishekpitale/argocdapp
+      - image: hub.docker.com/repository/docker/abhishekpitale
         name: argocdapp
         ports:
         - containerPort: 8080
