@@ -15,7 +15,7 @@ spec:
         app: argocdapp
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: https://hub.docker.com/repository/docker/abhishekpitale/node-web-app
         name: argocdapp
         ports:
         - containerPort: 80
