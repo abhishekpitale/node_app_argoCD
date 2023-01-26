@@ -18,4 +18,4 @@ spec:
       - image: abhishekpitale/argocdapp
         name: argocdapp
         ports:
-        - containerPort: 8080
+        - containerPort: 80
