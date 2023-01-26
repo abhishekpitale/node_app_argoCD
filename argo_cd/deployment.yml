@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - image: 463f771df6da
-        name: abhishekpitale/argocdapp
+        name: argocdapp
         ports:
         - containerPort: 80
